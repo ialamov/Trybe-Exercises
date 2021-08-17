@@ -1,0 +1,28 @@
+body {
+        font-size: 16px;
+      }
+
+      h1 {
+        font-family: sans-serif;
+        line-height: 10px;
+        text-align: center;
+      }
+
+      p {
+        font-weight: bold;
+        font-size: 3em;
+        font-style: italic;
+        text-decoration: dotted;
+      }
+
+      #amarelo {
+        background-color: yellow;
+      }
+
+      #vermelho {
+        background-color: red;
+      }
+
+      #marrom {
+        background-color: brown;
+      }
