@@ -175,6 +175,22 @@ iframe {
   margin: auto;
 }
 
+.bibliografia {
+  background-color: rgb(228, 243, 252);
+  padding-bottom: 30px;
+}
+
+.bibliografia h3 {
+  margin: 30px;
+  padding-top: 30px;
+}
+
+.bibliografia p {
+  font-size: 0.8em;
+  padding: 10px;
+  padding-left: 30px;
+}
+
 footer {
   font-size: 1.2em;
   font-weight: 100;
