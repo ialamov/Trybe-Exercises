@@ -1,0 +1,16 @@
+h1, p {
+	text-align: center;
+}
+
+li:hover {
+	background-color: darkgreen;
+}
+
+li:active {
+	font-family: fantasy;
+	color: white;
+}
+
+ol, ul {
+	list-style: none;
+}

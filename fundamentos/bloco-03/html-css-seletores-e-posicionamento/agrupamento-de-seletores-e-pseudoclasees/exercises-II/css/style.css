@@ -1,0 +1,9 @@
+div:hover {
+  background-color: cadetblue;
+  border-style: dotted;
+  border-color: black;
+}
+
+h1 {
+  background-color: burlywood;
+}

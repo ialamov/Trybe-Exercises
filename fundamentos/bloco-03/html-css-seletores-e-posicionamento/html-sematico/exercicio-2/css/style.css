@@ -1,0 +1,203 @@
+/* 
+2 - Adicione um conjunto de links que representam a área de navegação do site.
+Crie um link chamado Página Inicial .
+Crie um link chamado Sobre .
+Crie um link chamado Contato .
+3 - Crie um artigo que vai conter os fatos interessantes sobre o Stomatopoda . O artigo terá o subtítulo Fatos sobre o Stomatopoda . Segue um site animal de inspiração para pegar fatos.
+4 - Divida o artigo em seções, organizando-o da seguinte forma:
+Uma primeira seção contendo informações gerais a respeito do animal. O subtítulo para essa seção fica a seu critério. É necessário que conste nessa seção seu nome científico , que é Odontodactylus scyllarus , em itálico. Além disso, é preciso que haja informação tabular a respeito de sua classificação científica, em específico: Reino , Filo , Subfilo , Classe , Subclasse e Ordem . Tais informações você consegue obter na Wikipedia.
+As outras seções dizem respeito aos fatos interessantes que você escolheu acerca do animal. Para cada fato escolhido você vai criar uma seção.
+Adicione, para cada seção, um subtítulo referente ao fato escolhido.
+Adicione, para cada seção, parágrafo(s) descrevendo o fato escolhido. Destaque características impressionantes referentes ao fato que você escolheu, de forma a reforçar a unicidade do Stomatopoda . Por exemplo: se você criar uma seção detalhando o soco potente do animal, seria interessante destacar a velocidade desse soco (80km/h) em negrito.
+Adicione, para cada seção, uma imagem, como forma de ilustrar o fato.
+Adicione, por fim, uma seção de referências bibliográficas, contendo uma lista de todos os links que foram usados como base para compilar a página em questão.
+5 - Adicione um conteúdo adjacente ao artigo, disponibilizando um link para este vídeo, que mostra o animal em ação.
+6 - Adicione um rodapé na página, mostrando algo do gênero:
+Copiar
+"Conteúdo compilado por <insere seu nome>, <ano atual>".
+Obs: para esse exercício, é obrigatório fazer uso de, no mínimo , 6 elementos com as seguintes tags: header , nav , article , section , h1 , h2 , h3, aside , footer , table e img . */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Garamond, Arial, sans-serif;
+  font-size: 20px;
+}
+
+.instagram img {
+  width: 50px;
+  position: absolute;
+  padding: 1px;
+}
+
+nav {
+  text-align: right;
+  font-size: 0.8em;
+  background-color: rgb(7, 7, 77);
+  font-weight: 600;
+  height: 50px;
+  z-index: 0;
+}
+
+nav a {
+  padding: 20px;
+  color: white;
+  display: inline-block;
+  text-decoration: wavy;
+  text-shadow: 2px 2px 10px rgb(255, 255, 0) ;
+}
+
+#About {
+   background-color: rgb(228, 243, 252);
+   height: auto;
+   padding-bottom: 40px;
+   height: 680;
+   overflow: hidden;
+}
+
+#About article {
+  float: right;
+  width: 60%;
+  margin: 20px;
+  padding-top: 30px;
+}
+
+#About img {
+  padding: 120px 0 0 35px;
+  border-radius: 100px;
+  width: 30%;
+}
+
+#About h2, li {
+  padding: 10px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#About p {
+  font-size: 0.8em;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  margin: 50px;
+  color: rgb(7, 7, 77);;
+}
+
+.funny-images img {
+  width: 33%;
+  display: inline-block;
+}
+
+.articles h2 {
+  margin: 30px;
+  padding-top: 30px;
+}
+
+.green-body {
+  background-color: rgb(228, 243, 252);
+  height: auto;
+  padding-bottom: 40px;
+  height: 680;
+  overflow: hidden;
+}
+
+.green-body img {
+  float: right;
+  padding: 40px;
+  width: 350px;
+  border-radius: 100px;
+}
+
+.beatifull-body {
+  margin: 30px;
+  padding-top: 30px;
+  width: 60%;
+}
+
+.beatifull-body p {
+  font-size: 0.8em;
+  padding: 10px;
+}
+
+.beatifull-eyes {
+  margin: 30px;
+  padding-top: 30px;
+}
+
+.beatifull-eyes p {
+  font-size: 0.8em;
+  padding: 10px;
+}
+
+.beatifull-eyes-img img {
+  float: left;
+  padding: 40px;
+  width: 44%;
+  margin: 30px;
+  padding-top: 30px;
+  border-radius: 100px;
+}
+
+.beatifull-style {
+  background-color: rgb(228, 243, 252);
+  padding-bottom: 30px;
+}
+
+.beatifull-style h3 {
+  margin: 30px;
+  padding-top: 30px;
+}
+
+.beatifull-style p {
+  font-size: 0.8em;
+  padding: 10px;
+  padding-left: 30px;
+}
+
+.beatifull-style-img {
+  padding: 40px;
+  width: 20%;
+  margin: 30px;
+  padding-top: 30px;
+  border-radius: 100px;
+  float: right;
+}
+
+iframe {
+  padding: 50px;
+  display: block;
+  margin: auto;
+}
+
+.bibliografia {
+  background-color: rgb(228, 243, 252);
+  padding-bottom: 30px;
+}
+
+.bibliografia h3 {
+  margin: 30px;
+  padding-top: 30px;
+}
+
+.bibliografia p {
+  font-size: 0.8em;
+  padding: 10px;
+  padding-left: 30px;
+}
+
+footer {
+  font-size: 1.2em;
+  font-weight: 100;
+  font-style: italic;
+  text-align: center;
+  color: white;
+  background-color: rgb(7, 7, 77);
+  height: 28px;
+  padding: 20px;
+}
